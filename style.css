@@ -1,0 +1,97 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+}
+
+h2 {
+  font-family: 'Big Shoulders Display';
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.container {
+  padding: 10% 15%;
+  margin-left: 150px;
+}
+
+.cardstlye1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 5% 7%;
+}
+
+.cardstlye2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 5% 7%;
+}
+
+.cardstyle3 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 5% 7%;
+}
+
+.cardbutton1 {
+  color: hsl(31, 77%, 52%);
+  border-radius: 100px;
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  border-color: hsl(31, 77%, 52%);
+}
+
+.cardbutton1:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border-width: thin;
+}
+
+.cardbutton2 {
+  color: hsl(184, 100%, 22%);
+  border-radius: 100px;
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  border-color: hsl(184, 100%, 22%);
+}
+
+.cardbutton2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border-width: thin;
+}
+
+.cardbutton3 {
+  color: hsl(179, 100%, 13%);
+  border-radius: 100px;
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  border-color: hsl(179, 100%, 13%);
+  
+}
+
+.cardbutton3:hover {
+  background-color10 hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border-width: thin;
+}
+
+@media (max-width:1023px) {
+  .container {
+    padding: 10% 15%;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
